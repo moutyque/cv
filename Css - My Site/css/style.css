@@ -3,31 +3,27 @@
 
 body{
   margin: 0;
+  background-color: lightblue;
 }
 
-.top-container{
-  background-color: #F6F54D;
-  border:10px solid black;
-  width: 200px;
-  height: 200px;
-  padding: 20px;
+.center{
+  margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 30%;
 }
 
-.middle-container{
-  background-color: blue;
-  width: 200px;
-  height: 200px;
- border: 20px solid black;
- margin-left: 260px;
-
+.underline{
+  text-decoration: underline;
 }
 
-.bottom-container{
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  border:10px solid black;
-  position: absolute;
-  margin-left: 500px;
+#left_cloud{
+  position: relative;
+  left: 20%;
+}
 
+#right_cloud{
+  position: relative;
+  display: block;
+  left: 70%;
 }
