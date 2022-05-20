@@ -1,105 +1,123 @@
 /*https://colorhunt.co/palette/143f6bf55353feb139f6f54d */
-
-
-body{
+body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather',serif;
+  font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   line-height: 2;
-  font-family: 'Sacramento',cursive;
+  font-family: 'Sacramento', cursive;
 }
 
-h2{
+h2 {
   color: #66BFBF;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
-h3{
+h3 {
   color: #11999E;
-  font-family: 'Montserrat',sans-serif;
-
+  font-family: 'Montserrat', sans-serif;
 }
 
-hr{
-  border-top: 8px dotted;
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-top: 6px dotted;
   border-bottom: none;
   border-left: none;
   border-right: none;
   border-color: #EAF6F6;
 }
 
-hr.half-width{
-  width:30%;
-  margin: 0 auto;
+hr.half-width {
+  width: 10%;
+  margin: 100px auto;
 }
 
-.text_welcome{
-  color: #40514E
+.text_welcome {
+  color: #40514E width:30%;
+  margin: auto;
 }
 
-.skill_img{
-    width: 25%;
-    max-width: 100px;
+.skill_img {
+  width: 25%;
+  max-width: 100px;
 }
 
-.img_java{
+.img_me {
+  width: 10%;
+  max-width: 1000px;
+}
+
+.img_java {
   float: left;
   margin-right: 30px;
 }
 
-.img_discipline{
+.img_discipline {
   float: right;
   margin-right: 30px;
 }
 
-.top_container{
+.top_container {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.bottom-container{
-  padding-top: 30px;
-  margin-top: 30px;
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
   background-color: #66BFBF
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  line-height: 2;
 }
 
-.skill_text{
+.skill_text {
   text-align: left;
 }
 
-.txt_java{
-}
+.txt_java {}
 
-.txt_discipline{
-}
+.txt_discipline {}
 
-.center{
+.center {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 30%;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
-.contact-me{
-line-height: 2;
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .btn {
@@ -110,30 +128,40 @@ line-height: 2;
   background: #66BFBF;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin: 20px;
 }
 
 .btn:hover {
   text-decoration: none;
-
 }
 
-.footer-link{
+.footer-link {
   margin: 100px;
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.copyright{
+.copyright {
   color: #EAF6F6;
+  font-size: 0.75rem;
 }
 
-#left_cloud{
-  position: relative;
-  left: 20%;
+.book_list{
+  display: inline-block;
+  text-align: left;
 }
 
-#right_cloud{
-  position: relative;
-  display: block;
-  left: 70%;
+.book_section{
+  text-align: left;
+  margin-left: 30%;
+}
+#left_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 40px;
+}
+
+#right_cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
