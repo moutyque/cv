@@ -100,7 +100,9 @@ hr.half-width {
   text-align: left;
 }
 
-.txt_java {}
+.img_small{
+  width: 30px
+}
 
 .txt_discipline {}
 
